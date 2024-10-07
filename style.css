@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#F7F9F2;
+}
+
+header {
+    background-color:#CDC1FF;
+    padding: 20px ;
+    text-align:center;
+    font-size: 25PX;
+  }
+  
+   #menu-bar li {
+    display: inline;
+    margin-right: 60px;
+  }
+  
+  #menu-bar a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #about-me, #hobbies, #future ,#form-section{
+    padding: 50px;
+    margin: 40px;
+    background-color:#E5D9F2;
+    border-radius: 10px;
+  }
+  
+  img {
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .hobby {
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+  }
+  
+  .hobby-image {
+    width: 300PX;
+    height: 250PX;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    
+  }
+
+  #hobbies li {
+    display:flex;
+    margin-right: 20px;
+    
+  }
+
+  #hobbies a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color:#CDC1FF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #future p{
+    font-size: 20px;
+  }
